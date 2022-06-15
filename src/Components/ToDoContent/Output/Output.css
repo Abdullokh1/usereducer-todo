@@ -1,0 +1,23 @@
+.list{
+  overflow-y: scroll;
+  height: 280px;
+}
+
+.list::-webkit-scrollbar{
+  width: 10px;
+}
+
+
+  *::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #f87000;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }

@@ -1,0 +1,107 @@
+.wrapper{
+  background-color: #f4f4f4;
+  width: 450px;
+  min-height: 80vh;
+  padding: 45px;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  
+}
+ul{
+  list-style: none;
+}
+.list__title{
+  text-transform: capitalize;
+  font-size: 40px;
+  text-align: center;
+  color: #f87000;
+}
+.list-input{
+  width: 100%;
+  padding: 12px;
+  padding-right: 50px;
+  color: #878787;
+  border-radius: 4px;
+  border: none;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-bottom: 15px;
+}
+.search-input{
+  position: relative;
+  top: -15px;
+}
+.list-input::placeholder{
+  color: #878787;
+}
+.list-input:focus{
+  outline: none;
+}
+.input-wrapper{
+  position: relative;
+}
+.button{
+  position: absolute;
+  right: -30px;
+  top: -15px;
+  background-color: #f87000;
+  color: #fff;
+  border-radius: 50%;
+  border: none;
+  transition: all 0.3s ease;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button:hover{
+  background-color: #f79b51;
+}
+li{
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+  position: relative;
+  color: #878787;
+  cursor: pointer;
+}
+li::before{
+  content: "";
+  width: 5px;
+  height: 100%;
+  background-color: #f87000;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.bxs-trash-alt{
+  color: #878787;
+  font-size: 22px;
+  transition: all 0.2s ease;
+}
+.bxs-trash-alt:hover{
+  transform: scale(1.2);
+}
+.bx-check-circle{
+  font-size: 23px;
+}
+.bx-plus{
+  font-size: 30px;
+}
+.btn-wrapper{
+  position: absolute;
+  bottom: 10px;
+  left: 8%;
+}
+.check-btn{
+  border: none;
+  background-color:#f87000;
+  padding: 12px;
+  border-radius: 20px;
+  color: #fff;
+  transition: all 0.4s ease;
+}
+.check-btn:hover{
+  background-color: #f79b51;
+}
